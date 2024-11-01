@@ -31,7 +31,7 @@ class DB
             $config['password'],
             [PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION]
         );
-        $this->pdo->exec("set names " . $config['charset']);
+        $this->pdo->exec("set client_encoding to " . $config['charset']);
     }
 
     /**
