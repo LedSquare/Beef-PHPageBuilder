@@ -2,7 +2,7 @@
     "name": "ledsquare/beef-phpagebuilder",
     "type": "library",
     "license": "MIT",
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "require": {
         "php": ">=7.0"
     },
