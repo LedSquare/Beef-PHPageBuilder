@@ -2,11 +2,16 @@
     "name": "ledsquare/beef-phpagebuilder",
     "type": "library",
     "license": "MIT",
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=7.0"
+    },
     "autoload": {
         "psr-4": {
-            "BeefPhpagebuilder\\": "src/"
-        }
-    },
-    "minimum-stability": "stable",
-    "require": {}
+            "PHPageBuilder\\": "src/"
+        },
+        "files": [
+            "src/Core/helpers.php"
+        ]
+    }
 }
